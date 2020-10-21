@@ -1,0 +1,74 @@
+[
+	{
+		"name":"ban",
+		"decs":"ban người dùng, cấm người dùng sử dụng bot",
+		"usage":"ban [@user/userID]",
+		"example":"ban @mirai-chan"
+	},
+	{
+		"name":"ban thread",
+		"decs":"ban nhóm chat, cấm nhóm chat sử dụng bot",
+		"usage":"ban thread [threadID/để trống]",
+		"example":"ban thread"
+	},
+	{
+		"name":"ban command",
+		"decs":"ban lệnh, cấm người dùng sử lệnh đấy trong nhóm chat",
+		"usage":"ban command [lệnh] | list lệnh có thể xem tại help",
+		"example":"ban command say"
+	},
+	{
+		"name":"unban",
+		"decs":"unban người dùng, cho phép người dùng có thể sử dụng bot",
+		"usage":"unban [@user/userID]",
+		"example":"unban @mirai-chan"
+	},
+	{
+		"name":"unban thread",
+		"decs":"unban nhóm chat, cho phép nhóm chat có thể sử dụng bot",
+		"usage":"unban thread [threadID/để trống]",
+		"example":"ban thread"
+	},
+	{
+		"name":"unban command",
+		"decs":"unban lệnh, gỡ cấm lệnh đã bị ban trong nhóm chat",
+		"usage":"unban command [lệnh]",
+		"example":"unban command say"
+	},
+	{
+		"name":"noti",
+		"decs":"thông báo đến toàn bộ nhóm",
+		"usage":"noti [lời cần thông báo]",
+		"example":"noti mình là mirai-chan"
+	},
+	{
+		"name":"resend",
+		"decs":"bật, tắt việc resend lại tin nhắn từ bot",
+		"usage":"resend [on/off]",
+		"example":"resend on"
+	},
+	{
+		"name":"nsfw",
+		"decs":"bật tắt toàn bộ hentai, porn trong nhóm chat",
+		"usage":"nsfw [on/off]",
+		"example":"nsfw off"
+	},
+	{
+		"name":"restart",
+		"decs":"khởi động lại bot",
+		"usage":"restart",
+		"example":"restart"
+	},
+	{
+		"name":"setnsfw",
+		"decs":"set thông số nsfw cho chính bản thân hoặc người được chọn",
+		"usage":"setnsfw [me/@user] [1-5]",
+		"example":"setnsfw me 5"
+	},
+	{
+		"name":"setmoney",
+		"decs":"set thông số tiền cho chính bản thân hoặc người được chọn",
+		"usage":"setmoney [me/@user] [số tiền]",
+		"example":"setmoney me 100"
+	}
+]
